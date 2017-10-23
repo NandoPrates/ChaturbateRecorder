@@ -65,4 +65,4 @@ if __name__ == '__main__':
     getModels()
     online = list(set(online))
     for model in online:
-        print(model)
+        print("https://pt.chaturbate.com/",(model),"/",sep="",file=open("output.txt", "a"))
